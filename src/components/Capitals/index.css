@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.capital-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 60vh;
+  width: 70%;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 70px;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.select-container {
+  display: flex;
+  align-items: center;
+}
+.capital-select {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #cbd2d9;
+  font-weight: bold;
+  padding-left: 15px;
+  border-width: 1px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.option {
+  background-color: transparent;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.para {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 10px;
+}
+.country{
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
